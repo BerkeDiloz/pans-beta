@@ -47,33 +47,8 @@ This folder contains example Python scripts and Jupyter Notebooks used for plott
 - visited_countries_bar.ipynb — Jupyter Notebook (Python): bar chart of visited countries.
 - fruit_supply_by_color.ipynb — Jupyter Notebook (Python): horizontal bar chart with colors.
 
----
+## Exams (.ipynb)
+- Exam1ipynb.ipynb — MLP Exam 1 
+- Exam2.ipynb — MLP Exam 2
 
-How to add this `mpl` folder to your GitHub repository `https://github.com/BerkeDiloz/pans-beta` (PowerShell):
-
-1. Clone the repo locally (if not already):
-
-```powershell
-git clone https://github.com/BerkeDiloz/pans-beta.git
-cd pans-beta
-```
-
-2. Copy the `mpl` folder into the cloned repo and commit:
-
-```powershell
-# from your machine -- adjust path if different
-robocopy "C:\Users\mberk\OneDrive\Desktop\mpl" .\mpl /E
-git add mpl
-git commit -m "Add mpl folder: scripts and notebooks with README"
-git push origin main
-```
-
-Notes:
-- You will need push access to `pans-beta` and valid Git credentials.
-- If your default branch is not `main` use the repository's default branch name.
-- I did not push to the remote (no credentials available here). If you want, I can generate a patch or prepare a zip of the `mpl` folder.
-
-If you want, I can also:
-- Add inline header comments to each `.py` file indicating language and description, or
-- Try to commit & push directly from this environment if you provide a Git remote and credentials (not recommended to share secrets here).
 
